@@ -51,3 +51,18 @@ body {
     color: white;
     text-decoration: none;
 }
+
+.about {
+    padding: 80px 20%;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 36px;
+}
+
+.about p {
+    font-size: 18px;
+    line-height: 1.7;
+    color: #94a3b8;
+}
