@@ -80,3 +80,17 @@ body {
     font-size: 18px;
     color: #94a3b8;
 }
+
+.contact {
+    padding: 80px 20%;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 36px;
+}
+
+.contact p {
+    font-size: 18px;
+    color: #94a3b8;
+}
