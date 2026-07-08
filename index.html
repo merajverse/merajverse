@@ -4,48 +4,536 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MerajVerse</title>
+
+    <meta
+        name="description"
+        content="MerajVerse — Data engineering, AI engineering, intelligent systems, and technology exploration."
+    >
+
+    <title>MerajVerse | Data Engineering & AI</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
+    <!-- Navigation -->
     <nav class="navbar">
-        <div class="logo">MerajVerse</div>
 
-        <div class="nav-links">
+        <a href="#home" class="logo">
+            Meraj<span>Verse</span>
+        </a>
+
+        <div class="nav-links" id="navLinks">
             <a href="#about">About</a>
+            <a href="#expertise">Expertise</a>
             <a href="#projects">Projects</a>
+            <a href="#journey">Journey</a>
             <a href="#contact">Contact</a>
         </div>
+
+        <button
+            class="menu-button"
+            id="menuButton"
+            aria-label="Open navigation menu"
+        >
+            ☰
+        </button>
+
     </nav>
 
-    <main class="hero">
-        <h1>MerajVerse</h1>
-        <h2>Data Engineering. AI. Intelligent Systems.</h2>
-        <p>Building, learning, and exploring what’s next.</p>
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- Hero -->
+        <section id="home" class="hero">
+
+            <div class="hero-content">
+
+                <p class="eyebrow">
+                    DATA ENGINEERING · AI · INTELLIGENT SYSTEMS
+                </p>
+
+                <h1>
+                    Building systems.<br>
+                    Exploring intelligence.<br>
+                    <span>Creating what’s next.</span>
+                </h1>
+
+                <p class="hero-description">
+                    I’m a senior data engineer with over 12 years of experience
+                    in technology and financial services — building and
+                    modernising data systems across economic crime, AML,
+                    fraud detection, cloud, and modern data platforms.
+                </p>
+
+                <p class="hero-description secondary">
+                    MerajVerse is where deep engineering experience meets
+                    curiosity about AI, intelligent systems, and the future
+                    of technology.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#projects" class="button primary-button">
+                        Explore My Work
+                    </a>
+
+                    <a href="#about" class="button secondary-button">
+                        My Journey
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="hero-visual">
+
+                <div class="visual-orbit orbit-one"></div>
+                <div class="visual-orbit orbit-two"></div>
+                <div class="visual-orbit orbit-three"></div>
+
+                <div class="visual-core">
+                    MV
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- About -->
+        <section id="about" class="section">
+
+            <div class="section-heading">
+
+                <p class="section-label">ABOUT</p>
+
+                <h2>
+                    Engineering experience.<br>
+                    A beginner’s curiosity.
+                </h2>
+
+            </div>
+
+            <div class="about-grid">
+
+                <div class="about-story">
+
+                    <p>
+                        My journey in technology spans more than 12 years,
+                        with much of that experience rooted in financial
+                        services and complex enterprise data environments.
+                    </p>
+
+                    <p>
+                        I’ve worked on systems supporting economic crime,
+                        anti-money laundering and fraud detection — where
+                        data quality, reliability, scale and engineering
+                        discipline genuinely matter.
+                    </p>
+
+                    <p>
+                        Today, my work increasingly involves modern data
+                        engineering: cloud platforms, lakehouse architecture,
+                        data transformation, automation and the modernisation
+                        of legacy systems.
+                    </p>
+
+                    <p>
+                        Now I’m extending that journey into AI engineering,
+                        large language models, intelligent systems and
+                        agentic applications.
+                    </p>
+
+                </div>
+
+
+                <div class="about-highlight">
+
+                    <p class="highlight-number">12+</p>
+
+                    <p class="highlight-title">
+                        Years in Technology
+                    </p>
+
+                    <p>
+                        Building, modernising and learning across generations
+                        of technology.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Expertise -->
+        <section id="expertise" class="section">
+
+            <div class="section-heading">
+
+                <p class="section-label">EXPERTISE</p>
+
+                <h2>
+                    Where experience meets exploration.
+                </h2>
+
+            </div>
+
+
+            <div class="expertise-grid">
+
+                <article class="expertise-card">
+
+                    <p class="card-number">01</p>
+
+                    <h3>Data Engineering</h3>
+
+                    <p>
+                        Designing and building reliable data pipelines,
+                        transformation layers and enterprise data solutions.
+                    </p>
+
+                </article>
+
+
+                <article class="expertise-card">
+
+                    <p class="card-number">02</p>
+
+                    <h3>Financial Crime Technology</h3>
+
+                    <p>
+                        Engineering experience across economic crime,
+                        anti-money laundering and fraud detection systems.
+                    </p>
+
+                </article>
+
+
+                <article class="expertise-card">
+
+                    <p class="card-number">03</p>
+
+                    <h3>Modern Data Platforms</h3>
+
+                    <p>
+                        Exploring cloud, lakehouse architecture, Databricks,
+                        dbt and the modern data engineering ecosystem.
+                    </p>
+
+                </article>
+
+
+                <article class="expertise-card">
+
+                    <p class="card-number">04</p>
+
+                    <h3>AI Engineering</h3>
+
+                    <p>
+                        Learning by building with LLMs, AI agents, RAG,
+                        automation and intelligent applications.
+                    </p>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- Projects -->
+        <section id="projects" class="section">
+
+            <div class="section-heading">
+
+                <p class="section-label">PROJECTS</p>
+
+                <h2>
+                    Building in public.<br>
+                    One project at a time.
+                </h2>
+
+                <p class="section-introduction">
+                    MerajVerse is just getting started. This space will grow
+                    with real projects across data engineering, AI,
+                    automation and intelligent systems.
+                </p>
+
+            </div>
+
+
+            <div class="projects-grid">
+
+                <article class="project-card featured-project">
+
+                    <div class="project-top">
+
+                        <p class="project-status">
+                            LIVE
+                        </p>
+
+                        <p class="project-number">
+                            001
+                        </p>
+
+                    </div>
+
+                    <h3>MerajVerse</h3>
+
+                    <p>
+                        My digital engineering home — built from scratch
+                        while learning Git, GitHub, deployment, DNS,
+                        domains and modern development workflows.
+                    </p>
+
+                    <div class="project-tags">
+
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>Git</span>
+                        <span>Vercel</span>
+
+                    </div>
+
+                </article>
+
+
+                <article class="project-card">
+
+                    <div class="project-top">
+
+                        <p class="project-status building">
+                            BUILDING
+                        </p>
+
+                        <p class="project-number">
+                            002
+                        </p>
+
+                    </div>
+
+                    <h3>AI Engineering Lab</h3>
+
+                    <p>
+                        A growing collection of experiments with LLMs,
+                        APIs, local models, RAG and AI agents.
+                    </p>
+
+                    <div class="project-tags">
+
+                        <span>AI</span>
+                        <span>Python</span>
+                        <span>LLMs</span>
+
+                    </div>
+
+                </article>
+
+
+                <article class="project-card">
+
+                    <div class="project-top">
+
+                        <p class="project-status planned">
+                            PLANNED
+                        </p>
+
+                        <p class="project-number">
+                            003
+                        </p>
+
+                    </div>
+
+                    <h3>Personal Intelligence System</h3>
+
+                    <p>
+                        Exploring how AI can connect knowledge, notes,
+                        tasks and workflows into a useful personal system.
+                    </p>
+
+                    <div class="project-tags">
+
+                        <span>Agents</span>
+                        <span>Automation</span>
+                        <span>Knowledge</span>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- Journey -->
+        <section id="journey" class="section">
+
+            <div class="section-heading">
+
+                <p class="section-label">THE JOURNEY</p>
+
+                <h2>
+                    From data systems<br>
+                    to intelligent systems.
+                </h2>
+
+            </div>
+
+
+            <div class="journey-list">
+
+                <div class="journey-item">
+
+                    <p class="journey-year">
+                        FOUNDATION
+                    </p>
+
+                    <div>
+
+                        <h3>Software & Data</h3>
+
+                        <p>
+                            Building a foundation across software development,
+                            databases, SQL and enterprise technology.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="journey-item">
+
+                    <p class="journey-year">
+                        EXPERIENCE
+                    </p>
+
+                    <div>
+
+                        <h3>Financial Services Engineering</h3>
+
+                        <p>
+                            Working with complex data environments and
+                            technology supporting economic crime, AML
+                            and fraud detection.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="journey-item">
+
+                    <p class="journey-year">
+                        MODERNISATION
+                    </p>
+
+                    <div>
+
+                        <h3>Cloud & Modern Data Platforms</h3>
+
+                        <p>
+                            Moving deeper into cloud, lakehouse architecture,
+                            modern transformation frameworks and automation.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="journey-item current">
+
+                    <p class="journey-year">
+                        NOW
+                    </p>
+
+                    <div>
+
+                        <h3>AI Engineering</h3>
+
+                        <p>
+                            Learning how to build useful systems with LLMs,
+                            AI agents and emerging intelligent technologies.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Contact -->
+        <section id="contact" class="contact-section">
+
+            <p class="section-label">
+                CONTACT
+            </p>
+
+            <h2>
+                Let’s build what’s next.
+            </h2>
+
+            <p>
+                Interested in data engineering, AI, intelligent systems
+                or simply building useful technology?
+            </p>
+
+            <div class="contact-buttons">
+
+                <a
+                    href="https://github.com/merajverse"
+                    class="button primary-button"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    GitHub
+                </a>
+
+                <a
+                    href="mailto:hello@merajverse.dev"
+                    class="button secondary-button"
+                >
+                    Get in Touch
+                </a>
+
+            </div>
+
+        </section>
+
     </main>
 
-    <section id="about" class="about">
-        <h2>About Me</h2>
+
+    <!-- Footer -->
+    <footer>
+
+        <a href="#home" class="footer-logo">
+            MerajVerse
+        </a>
 
         <p>
-            I’m a Data Engineer exploring AI, intelligent systems, and the future of technology.
-            MerajVerse is where I build, learn, experiment, and share my journey.
+            Engineering the present. Exploring what’s next.
         </p>
-    </section>
-    <section id="projects" class="projects">
-    <h2>Projects</h2>
 
-    <p>
-        Projects and experiments coming soon.
-    </p>
-</section>
+        <p class="copyright">
+            © <span id="currentYear"></span> MerajVerse
+        </p>
 
-<section id="contact" class="contact">
-    <h2>Contact</h2>
-    <p>Let’s connect and build something interesting.</p>
-</section>
+    </footer>
+
+
+    <script src="script.js"></script>
 
 </body>
 
